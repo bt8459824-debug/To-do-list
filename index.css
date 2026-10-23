@@ -1,0 +1,83 @@
+#parent_list {
+  display: grid;
+  align-items: center;
+  padding: 10% 25%;
+}
+
+body {
+  /* zoom: 1.1; */
+  /* background-color: rgb(23, 22, 22); */
+  background: radial-gradient(
+    circle at 50% 50%,
+    #1a9cbd 30%,
+    white,
+    rgb(152, 211, 231)
+  );
+  height: 94vh;
+}
+
+#shit {
+  justify-items: center;
+}
+
+li {
+  font-size: 20px;
+  color: white;
+}
+
+#input {
+  height: 30px;
+  /* margin-top: 20px; */
+  border-radius: 35px;
+  outline: none;
+  border: 1px solid black;
+  text-align: center;
+}
+
+#rp-container {
+  display: flex;
+  justify-content: center;
+}
+
+#all-button-container {
+  display: grid;
+  background: transparent;
+}
+
+/* Shared radial gradient fixed to the screen across all buttons */
+#create, #reset, #clearpo {
+  border-radius: 35px;
+  outline: none;
+  border: none;
+  font-size: 80%;
+  height: 35px;
+  margin-top: 5px;
+  font-weight: 700;
+  background: radial-gradient(
+    circle at 50% 45%,
+    #f6f6f4 10%,
+    #fdf497 20%,
+    #fd5949 30%,
+    #d6249f 40%,
+    #1a9cbd 50%
+  );
+  background-attachment: fixed;
+}
+
+
+#create:active {
+  filter: brightness(1.3);
+  transform: translateY(4px);
+  /* transform: translateX(-3px); */
+}
+h1{
+    justify-self: center;
+    text-transform: capitalize;
+    text-decoration: dotted underline;
+    font-weight: 200;
+}
+input[type = "checkbox"]{
+  width: 20px;
+  height: 20px;
+  border-radius: 35px;
+}

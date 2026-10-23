@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1>To do list</h1>
+    <ul id="parent_list">
+      <div id="work_list">
+        <li>Yoo my guy <input type="checkbox"></li>
+      </div>
+      <input type="text" id="input" placeholder="Type the work you will do" />
+        <div id = "all-button-container">
+      <button onclick="makenewwork()" id="create">Create New Work</button>
+      <div id = "rp-container">
+        <button id="reset" onclick="reset()">Reset</button
+        ><button id="clearpo" onclick="deletepreviousone()">Clear Previous one</button>
+      </div></div>
+    </ul>
+  </body>
+  <script src="index.js"></script>
+</html>
